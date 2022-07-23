@@ -1,0 +1,78 @@
+body{
+    background-color:#F5F2E8;
+}
+*{
+    font-family: 'Pridi', serif;
+
+}
+
+.container{
+    max-width: 1200px;
+    /* border: 1px solid #B22222;
+    padding: 59px;
+    border-radius: 10px;
+    margin-bottom: 15px; */
+}
+.btn{
+    background-color: rgb(194, 202, 209);
+}
+.detail{
+    display: flex;
+}
+
+video{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;   
+    display: block;
+    margin: 30px auto;
+}
+.ft{
+    background-color: #F5F2E8;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+/* Animation*/
+button {
+    animation: wiggle 2s linear infinite;
+  }
+  
+  /* Keyframes */
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  
+
+  
+  button {
+    
+    
+    height: 4em;
+    width: 7em;
+    
+    background: rgb(206, 115, 25);
+    background: linear-gradient(top, #555, #333);
+  }
+  
